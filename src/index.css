@@ -1,0 +1,121 @@
+*{
+font-family:
+system-ui
+-apple-system
+"Segoe UI"
+Roboto
+"Helvetica Neue"
+"Noto Sans"
+"Liberation Sans"
+Arial
+sans-serif
+"Apple Color Emoji"
+"Segoe UI Emoji"
+"Segoe UI Symbol"
+"Noto Color Emoji";
+}
+.h-40{
+    height: 80px;
+}
+#NAVBAR{
+    background-color: #2C3E50;
+    height: 5rem;
+}
+.NAV-LI{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.NAV-LI:active{
+    background-color: blue;
+}
+.FOOTER{
+        background-color: #2C3E50;
+
+}
+
+#BRAND{
+    font-weight: 700;
+font-size: 2rem;
+}
+
+.H3-Footer{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+
+.IC{
+    width: 1.2rem;
+}
+
+.icon-style{
+
+    border: white solid 1px;
+
+padding-bottom: 6px;
+padding-top: 15px;
+padding-inline: 2px;
+margin-inline: 4px;
+border-radius: 50%;
+}
+
+.HOME-IMG{
+
+width: 16rem;
+
+}
+
+.STAR{
+    width: 1.2rem;
+}
+
+.LINE{
+    width: 5rem;
+    height: 4px;
+    background-color: white;
+}
+
+
+.Home-BG{
+
+background-color: #1ABC9C;
+padding-block: 5rem;
+}
+
+.ABOUT{
+    padding: 12rem;
+    background-color: #1ABC9C;
+}
+
+.Ab2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.PORO{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 2rem;
+    color: black;
+}
+.IMG-dff{
+    border-radius: 8px;
+}
+
+    .Img-Contan{
+top: 0;
+left: 0;
+bottom: 0%;
+    z-index: 10;
+    background-color: rgba(165, 42, 42, 0);
+border-radius: 8px;
+    position: absolute;
+transition: all 0.5s;
+    opacity: 0.5;
+}
+
+
+.Img-Contan:hover{
+    background-color: rgba(0, 0, 255, 0.509);
+}
